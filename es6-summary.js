@@ -73,7 +73,36 @@ const fish = { id: 58,
 //     console.log(phone);
 
 //chaining
-const myObject ={a:3, b:4, n:5, f:6, j:9};
+//object
+// const myObject ={a:3, b:4, n:5, f:6, j:9};
 
-const {f, j} = myObject;
-console.log(j);
+// const {f, j} = myObject;
+// console.log(j);
+
+//arry
+const [ , ,three]=['nishat', 'fariza', 'hhhhh', 'kkkkkkk', 'dddddd' ]
+
+// const [] 
+// console.log(three);
+
+// task-10
+const num = (a, b, c=7 )=> a + b + c;
+
+// console.log(num(4, 7, 8));
+
+// task --11
+const comapnyName={
+    name:'gp',
+    ceo:{id:1, name:'hhhh', food:'fruit'},
+    work:{
+        work:'Website devlopment',
+        employe:78,
+        tech:{
+            first: 'html',
+            second: 'css',
+            third: ['bootstrap', 'js', 'react']
+        }
+    }
+
+}
+console.log(comapnyName?.frontEnd?.tech?.third[0])
